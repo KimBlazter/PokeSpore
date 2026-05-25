@@ -12,8 +12,8 @@ export default defineEventHandler(async (event) => {
     if (startWith) {
         pokes = pokes.filter(
             (p) =>
-                p.name.toLowerCase().startsWith(startWith.toLowerCase()) ||
-                p.fr?.toLowerCase().startsWith(startWith.toLowerCase())
+                p.name.toLowerCase().includes(startWith.toLowerCase()) ||
+                p.fr?.toLowerCase().includes(startWith.toLowerCase())
         )
     }
 
