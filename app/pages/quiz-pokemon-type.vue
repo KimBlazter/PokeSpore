@@ -70,9 +70,10 @@
                                         item.genId
                                     ]"
                                     :key="pokemon.id"
-                                    class="m-2 gap-4"
+                                    class="m-2 gap-4 [&>div]:p-3"
                                 >
                                     <div class="flex items-center gap-4">
+                                        <!-- Image -->
                                         <div
                                             class="relative h-16 w-16 shrink-0"
                                         >
@@ -86,7 +87,7 @@
                                                 :alt="
                                                     pokemon.fr ?? pokemon.name
                                                 "
-                                                class="relative z-10 h-18 w-18"
+                                                class="relative z-10 h-18 w-18 aspect-square object-contain"
                                             />
                                         </div>
                                         <span
