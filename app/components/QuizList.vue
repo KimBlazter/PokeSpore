@@ -12,7 +12,7 @@
                 <p>Devinez le Pokémon à partir de ses types</p>
             </template>
             <template #footer>
-                <UButton icon="lucide:play" to="/quiz-pkmn-type"
+                <UButton icon="lucide:play" to="/quiz-pokemon-type"
                     >Lancer le quiz</UButton
                 >
             </template>
